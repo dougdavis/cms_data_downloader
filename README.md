@@ -61,21 +61,20 @@ pytest test_main.py
 ## Project Structure
 
 cms_data_downloader/
-│
-├── main.py                 # Main script to download and process CSV files
-├── utils.py                # Utility functions for downloading and processing CSV files
-├── test_main.py            # Unit tests for the project
-├── requirements.txt        # List of required packages
-└── README.md               # Project documentation
+- main.py                 # Main script to download and process CSV files
+-  utils.py               # Utility functions for downloading and processing CSV files
+- test_main.py            # Unit tests for the project
+- requirements.txt        # List of required packages
+- README.md               # Project documentation
 
 ## Example
 
 Here is an example of how to use the download_and_process_csv function:
 
-``sh
+```sh
 from utils import download_and_process_csv
 
 download_url = '<http://example.com/file1.csv>'
 file_path = 'path/to/download_dir/file1.csv'
 last_modified = '2023-01-01T00:00:00Z'
-
+```
