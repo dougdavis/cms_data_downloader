@@ -13,7 +13,7 @@ cms_data_downloader/
 ├── main.py              # Main entry point and orchestration
 ├── utils.py             # Core utility functions (API calls, downloads, processing)
 ├── test_main.py         # Unit tests using pytest
-├── requirements.txt     # Python dependencies (pandas, requests)
+├── requirements.txt     # Python dependencies (pandas, requests, python-dateutil)
 ├── README.md            # User-facing documentation
 ├── .gitignore           # Git ignore patterns
 └── downloads/           # Output directory (created at runtime)
